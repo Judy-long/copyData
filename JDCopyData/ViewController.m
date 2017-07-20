@@ -68,11 +68,8 @@
     cpRun.data = [NSData dataWithBytes:dd length:5];
     [cpRun.runData replaceBytesInRange:NSMakeRange(0, 2) withBytes:dd];
     
-    
-    
     NSLog(@"%@", cpRun);
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
