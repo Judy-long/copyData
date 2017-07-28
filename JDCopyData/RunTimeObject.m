@@ -9,6 +9,8 @@
 #import "RunTimeObject.h"
 #import <objc/runtime.h>
 
+#import <math.h>
+
 @implementation RunTimeObject
 
 + (id)getCopyWithClass:(id)cla {
